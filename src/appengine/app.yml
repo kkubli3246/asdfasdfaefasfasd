@@ -1,0 +1,6 @@
+runtime: java11
+handlers:
+- url: /.*
+  script: required but ignored
+  manual scaling: 
+  instances: 1
